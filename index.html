@@ -4,16 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ayrton Senna</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div>
-                <a href="#"><img src="./assets/img/logo-senna.png" alt=""></a>
+            <div id="menu">
+                <a href="#"><img class="logo" src="./assets/img/logo-senna.png" alt=""></a>
+                <h1>Ayrton Senna</h1>
                 <nav>
-                    <ul>
+                    <ul class="navbar">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="estatisticas.html">Curiosidades</a></li>
+                        <li><a href="estatisticas.html" target="_blank">Curiosidades</a></li>
                         <li><a href="https://institutoayrtonsenna.org.br/" target="_blank">Instituto Ayrton Senna</a></li>
                     </ul>
                 </nav>
@@ -22,34 +26,54 @@
         <main>
             <section>
                 <article>
-                    <h1>Ayrton Senna</h1>
-                    <h2>O Início</h2>
-                    <p>A jornada de Ayrton Senna da Silva começou em 21 de março de 1960 na cidade de São Paulo. Desde muito novo, Ayrton mostrava interesse por carros. Uma paixão compartilhada por seu pai Milton, que, antes mesmo de se casar com Neyde, já tinha planos de construir um kart para presentear seu futuro filho. Aos 4 anos de idade, Ayrton recebeu o presente que simbolizou o chamado para a jornada na busca por sua verdade. </p>
-                    <p>Aos treze anos de idade, Ayrton começou a competir oficialmente nas provas de kart, em 1973. Foi assim por oito anos, ganhando todos os campeonatos que competiu, com exceção de 1.</p>
-                    <h2>O Piloto Ayrton Senna</h2>
-                    <p>Ao vestir o macacão, Ayrton Senna e o carro se uniam numa perfeita simbiose, onde ele sentia cada vibração da pista e executava manobras inacreditáveis com precisão cirúrgica. O piloto encontrava nos delicados equilíbrios entre habilidade e fé os segredos para correr de forma imprevisível, deixando seus adversários perplexos. </p>
-                    <p>“Não conheço outra maneira de guiar senão de maneira arrojada. Quando é hora de ultrapassar, eu ultrapasso. Cada piloto tem seu limite, o meu está um pouco além do dos outros.” </p>
-                    <img src="./assets/img/senna-bandeira.jpg" alt="Ayrton Senna comemorando vitória enquanto segura a bandeira do Brasil.">
-                    <h2>Fórmula Ford</h2>
-                    <p>Em 1981, Ayrton Senna atravessou o oceano rumo à Inglaterra, onde estreou na base do automobilismo e se juntou à melhor equipe do Campeonato Europeu, a Van Diemen. Na Fórmula Ford 1600, ele demonstrou tudo o que havia aprendido nos kartódromos do Brasil e do exterior. </p>
-                    <p>Após conquistar o título em 1981, Ayrton avançou para a divisão superior no ano seguinte, a Fórmula Ford 2000, onde quebrou recordes em todas as direções nos campeonatos britânico e europeu. Ele alcançou nove vitórias consecutivas, um feito inigualável.</p>
-                    <p>Em 1982, Ayrton expandiu sua presença em pistas europeias, despertando o interesse das equipes de Fórmula 1. No entanto, optou por seguir a rota tradicional, ingressando na Fórmula 3 Inglesa em 1983.</p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BMwhTWKMhro?si=-pl2jxYtLTTQmd_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <h2>Fórmula 3</h2>
-                    <p>Faltava apenas um degrau para Ayrton Senna chegar à Fórmula 1, e ele estava determinado a impressionar os principais chefes de equipe da categoria.</p>
-                    <p>Em 1983, Senna competiu na Fórmula 3 Inglesa pela equipe West Surrey Racing. Seu desempenho na temporada foi tão excepcional que ele nem precisou competir na categoria em 1984 – ao final do ano, já estava pronto para a Fórmula 1.</p><iframe width="560" height="315" src="https://www.youtube.com/embed/Dt5gXSFbQUQ?si=HFOQjUL66CaJ_h2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <h2>Fórmula 1</h2>
-                    <p>Senna estreou na categoria máxima do automobilismo em 1984, pilotando pela modesta equipe Toleman. Depois de uma passagem pela Lotus, o piloto brasileiro conquistou três títulos mundiais pela McLaren antes de encerrar sua jornada na Williams, em 1994.</p>
-                    <p>A Fórmula 1 consagrou o piloto Ayrton Senna como uma lenda do automobilismo, com um impressionante histórico de 41 vitórias, 65 pole positions e 3 campeonatos mundiais.</p>
-                    <p></p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XX3dmVrSRA4?si=46zGp6_eqHJG1rQJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="inicio-container">
+                        <div class="text-container">
+                            <h2>O Início da Jornada</h2>
+                            <p>A jornada de Ayrton Senna da Silva começou em 21 de março de 1960 na cidade de São Paulo. Desde muito novo, Ayrton mostrava interesse por carros. Uma paixão compartilhada por seu pai Milton, que, antes mesmo de se casar com Neyde, já tinha planos de construir um kart para presentear seu futuro filho.</p> 
+                            <p>Aos 4 anos de idade, Ayrton recebeu o presente que simbolizou o chamado para a jornada na busca por sua verdade. Aos treze anos de idade, Ayrton começou a competir oficialmente nas provas de kart, em 1973. Foi assim por oito anos, ganhando todos os campeonatos que competiu, com exceção de um.</p>
+                            <h2>O Piloto Ayrton Senna</h2>
+                            <p>Ao vestir o macacão, Ayrton Senna e o carro se uniam numa perfeita simbiose, onde ele sentia cada vibração da pista e executava manobras inacreditáveis com precisão cirúrgica. O piloto encontrava nos delicados equilíbrios entre habilidade e fé os segredos para correr de forma imprevisível, deixando seus adversários perplexos.</p>
+                            <p>“Não conheço outra maneira de guiar senão de maneira arrojada. Quando é hora de ultrapassar, eu ultrapasso. Cada piloto tem seu limite, o meu está um pouco além do dos outros.” </p>
+                        </div>
+                        <img src="./assets/img/senna-bandeira.jpg" alt="Ayrton Senna comemorando vitória enquanto segura a bandeira do Brasil.">
+                    </div>
+                    <div class="carreira-container">
+                        <h2>Carreira</h2>
+                        <div class="ford-container">
+                            <div class="fordtext-container">
+                                <h3>Fórmula Ford</h3>
+                                <p>Em 1981, Ayrton Senna atravessou o oceano rumo à Inglaterra, onde estreou na base do automobilismo e se juntou à melhor equipe do Campeonato Europeu, a Van Diemen. Na Fórmula Ford 1600, ele demonstrou tudo o que havia aprendido nos kartódromos do Brasil e do exterior. </p>
+                                <p>Após conquistar o título em 1981, Ayrton avançou para a divisão superior no ano seguinte, a Fórmula Ford 2000, onde quebrou recordes em todas as direções nos campeonatos britânico e europeu. Ele alcançou nove vitórias consecutivas, um feito inigualável.</p>
+                                <p>Em 1982, Ayrton expandiu sua presença em pistas europeias, despertando o interesse das equipes de Fórmula 1. No entanto, optou por seguir a rota tradicional, ingressando na Fórmula 3 Inglesa em 1983.</p>
+                            </div> 
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BMwhTWKMhro?si=-pl2jxYtLTTQmd_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="f3-container">
+                            <div class="f3text-container">
+                                <h3>Fórmula 3</h3>
+                                <p>Faltava apenas um degrau para Ayrton Senna chegar à Fórmula 1, e ele estava determinado a impressionar os principais chefes de equipe da categoria.</p>
+                                <p>Em 1983, Senna competiu na Fórmula 3 Inglesa pela equipe West Surrey Racing. Seu desempenho na temporada foi tão excepcional que ele nem precisou competir na categoria em 1984 – ao final do ano, já estava pronto para a Fórmula 1.</p>
+                            </div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Dt5gXSFbQUQ?si=HFOQjUL66CaJ_h2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="f1-container">
+                            <div class="f1text-container">
+                                <h3>Fórmula 1</h3>
+                                <p>Senna estreou na categoria máxima do automobilismo em 1984, pilotando pela modesta equipe Toleman. Depois de uma passagem pela Lotus, o piloto brasileiro conquistou três títulos mundiais pela McLaren antes de encerrar sua jornada na Williams, em 1994.</p>
+                                <p>A Fórmula 1 consagrou o piloto Ayrton Senna como uma lenda do automobilismo, com um impressionante histórico de 41 vitórias, 65 pole positions e 3 campeonatos mundiais.</p>
+                            </div>
+                            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/XX3dmVrSRA4?si=46zGp6_eqHJG1rQJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </article>
             </section>
             <section>
                 <article>
-                    <h2>Saiba mais</h2>
-                    <p>Como já sabemos, Ayrton Senna foi um grande piloto de automobilismo, colecionando façanhas, conquistas e muitos títulos. Por conta disso, conquistou muitos fãs ao longo de sua carreira, tendo seu legado sendo conhecido e disseminado até os dias de hoje, se tornando em uma das figuras mais icônicas e conhecidas do nosso país.</p>
-                    <p>Veja alguns números e curiosidades sobre Senna <a href="estatisticas.html">clicando aqui!</a></p>
+                    <div class="mais-container">
+                        <h2>Saiba mais</h2>
+                        <p>Como já sabemos, Ayrton Senna foi um grande piloto de automobilismo, colecionando façanhas, conquistas e muitos títulos. Por conta disso, conquistou muitos fãs ao longo de sua carreira, tendo seu legado sendo conhecido e disseminado até os dias de hoje, se tornando em uma das figuras mais icônicas e conhecidas do nosso país.</p>
+                        <p>Veja alguns números e curiosidades sobre Senna <a href="estatisticas.html">clicando aqui!</a></p>
+                    </div>
                 </article>
             </section>
         </main>

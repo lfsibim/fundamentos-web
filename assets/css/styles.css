@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato';
+    font-size: 18px;
+}
+h1, h2, h3 {
+    font-size: 30px;
 }
 
 #menu {
@@ -92,8 +96,8 @@
 }
 
 .ford-container iframe {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     border-radius: 5px;
 }
 
@@ -111,8 +115,8 @@
 }
 
 .f3-container iframe {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     border-radius: 5px;
     margin-top: 40px;
 }
@@ -131,8 +135,8 @@
 }
 
 .f1-container iframe {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     border-radius: 5px;
     margin-top: 40px;
 }

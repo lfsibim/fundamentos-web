@@ -24,6 +24,8 @@ button, a {
     cursor: pointer;
 }
 
+
+
 .menu-container {
     width: 100%;
     background-color: var(--blue-800);
@@ -178,7 +180,7 @@ p {
     text-align: justify;
     border: 1px solid var(--blue-500);
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px var(--black-800);
     padding: 10px 10px;
 }
 
@@ -283,4 +285,85 @@ footer {
 
 footer p {
     margin-top: 10px;
+}
+
+/* curiosidades.html */
+
+.main-container h1 {
+    color: var(--blue-200);
+    margin: 20px;
+}
+
+.main-container h2 {
+    color: var(--blue-800);
+    margin: 20px;
+}
+
+.titles-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.titles-content {
+    margin: 0 20px 20px 20px;
+}
+
+.content-style {
+    text-align: justify;
+}
+
+.content-style h3 {
+    margin-bottom: 10px;
+}
+
+.images-content {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--blue-800);
+    padding: 40px 0;
+}
+
+.images-content img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--black-800);
+}
+
+.moreinfo-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+
+.moreinfo-container h2 {
+    margin-left: -1px;
+}
+
+.curiosity-container {
+    max-width: 40%;
+    text-align: justify;
+    margin: 20px
+}
+
+.curiosity-container h3 {
+    margin-bottom: 10px;
+}
+
+.numbers-container {
+    margin: 20px;
+}
+
+.numbers-container li {
+    font-size: 18px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.tribute-container {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.tribute-container img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--black-800);
 }

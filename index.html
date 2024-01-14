@@ -88,11 +88,13 @@
                     <h2>Newsletter</h2>
                     <p>Entre com suas informações abaixo para fazer parte da nossa <strong>Newsletter</strong> e receber novidades do mundo automobilístico.</p>
                     <form>
-                        <label for="name" id="name">Nome:</label>
-                        <input type="text" name="name" required placeholder="Seu nome" />
-                        <label for="email" id="email">E-mail:</label>
-                        <input type="email" name="email" id="email" required placeholder="Seu melhor e-mail" />
-                        <button>Inscreva-se</button>
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name" id="name" required placeholder="Seu nome" onkeyup="validaNome()" />
+                        <div id="txtName"></div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" required placeholder="Seu melhor e-mail" onkeyup="validaEmail()" />
+                        <div id="txtEmail"></div>
+                        <button id="enviar" onclick="send()">Inscreva-se</button>
                     </form>
                 </article>
             </section>
@@ -100,5 +102,6 @@
         <footer>
             <p>Projeto feito por Luís Felipe Sibim - 2024</p>
         </footer>
+        <script src="./assets/js/scripts.js"></script>
     </body>
 </html>
